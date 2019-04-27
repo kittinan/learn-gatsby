@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/learn-gatsby`,
   siteMetadata: {
     title: `Title from siteMetadata`,
   },
