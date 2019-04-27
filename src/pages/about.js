@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import Tun from "../components/tun"
 
 export default ({ data }) => (
   <Layout>
@@ -9,6 +10,7 @@ export default ({ data }) => (
       We're the only site running on your computer dedicated to showing the best
       photos and videos of pandas eating lots of food.
     </p>
+    <Tun name="kuy" />
   </Layout>
 )
 

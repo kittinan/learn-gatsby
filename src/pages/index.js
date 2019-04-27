@@ -4,6 +4,8 @@ import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
+import axios from "axios"
+
 export default ({ data }) => {
   return (
     <Layout>
